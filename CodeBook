@@ -1,0 +1,18 @@
+Below are the data sets created in the code:
+x_train: To read X_train.txt
+y_train: To read Y_train.txt
+x_test: To read X_test.txt
+y_test: To read Y_test.txt
+subject_train: To read subject_train.txt
+subject_test: To read subject_test.txt
+features: To read features.txt
+activity_labels: To read activity_labels.txt
+train_data: measurements, activity labels and subject id data sets corresponding tp training data are merged to create this data set
+test_data: train_data: measurements, activity labels and subject id data sets corresponding tp test data are merged to create this data set
+data: Train and test data sets are appended to create this data set
+melt_data: The whole data (train and test appended) is melted to obtain each measurement for each activity label and subject per row in the data table
+tify_data: The final data set containing the mean measurement values for each subject and activity
+
+Below are the variables created in the code:
+extract_features: A logical vector to indicate the position of measurements pertaining to mean and standard deviation
+
